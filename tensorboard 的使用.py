@@ -1,3 +1,8 @@
+"""
+查看命令
+tensorboard --logdir=一定要绝对路径
+"""
+
 import torch
 import torchvision
 from torch.nn import Conv2d
@@ -34,5 +39,4 @@ for data in dataloader:
 
 print(tudui)
 
-查看命令
-tensorboard --logdir=一定要绝对路径
+
