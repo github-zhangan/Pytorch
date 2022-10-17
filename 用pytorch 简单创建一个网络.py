@@ -16,3 +16,5 @@ x = torch.reshape(x,(1,1,1))
 print(x.shape)
 output = model(x)
 print(output)
+
+123456
